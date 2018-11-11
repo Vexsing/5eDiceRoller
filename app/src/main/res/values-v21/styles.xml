@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DiceRoller" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:navigationBarColor">?android:attr/colorForeground</item>
+        <item name="android:statusBarColor">?android:attr/colorForeground</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_material_dark</item>
+    </style>
+</resources>

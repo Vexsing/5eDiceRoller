@@ -25,6 +25,7 @@
             <Button
                 android:id="@+id/number7"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number7"
@@ -34,6 +35,7 @@
             <Button
                 android:id="@+id/number8"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number8"
@@ -43,6 +45,7 @@
             <Button
                 android:id="@+id/number9"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number9"
@@ -58,6 +61,7 @@
             <Button
                 android:id="@+id/number4"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number4" />
@@ -66,6 +70,7 @@
             <Button
                 android:id="@+id/number5"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number5" />
@@ -73,6 +78,7 @@
             <Button
                 android:id="@+id/number6"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number6" />
@@ -86,6 +92,7 @@
             <Button
                 android:id="@+id/number1"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number1" />
@@ -93,6 +100,7 @@
             <Button
                 android:id="@+id/number2"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number2" />
@@ -100,6 +108,7 @@
             <Button
                 android:id="@+id/number3"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number3" />
@@ -113,6 +122,7 @@
             <Button
                 android:id="@+id/subtract"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/subtract" />
@@ -120,6 +130,7 @@
             <Button
                 android:id="@+id/number0"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number0" />
@@ -127,6 +138,7 @@
             <Button
                 android:id="@+id/addition"
                 style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/button_border"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/addition" />
@@ -165,6 +177,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="17dp"
             android:layout_weight="1"
+            android:background="@drawable/button_border"
             android:text="@string/rollDice"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -196,6 +209,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@android:dimen/notification_large_icon_height"
                 android:layout_weight=".25"
+                android:background="@drawable/button_border"
                 android:text="@string/d100" />
 
             <Button
@@ -204,6 +218,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:layout_weight=".25"
+                android:background="@drawable/button_border"
                 android:text="@string/d20" />
 
             <Button
@@ -212,6 +227,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:layout_weight=".25"
+                android:background="@drawable/button_border"
                 android:text="@string/d12" />
 
             <Button
@@ -220,6 +236,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="64dp"
                 android:layout_weight=".25"
+                android:background="@drawable/button_border"
                 android:text="@string/d10" />
 
         </TableRow>
@@ -234,6 +251,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="64dp"
                 android:layout_weight=".2"
+                android:background="@drawable/button_border"
                 android:text="@string/d8" />
 
             <Button
@@ -242,6 +260,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="64dp"
                 android:layout_weight=".2"
+                android:background="@drawable/button_border"
                 android:text="@string/d6" />
 
             <Button
@@ -250,6 +269,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="64dp"
                 android:layout_weight=".2"
+                android:background="@drawable/button_border"
                 android:text="@string/d4" />
 
             <Button
@@ -258,6 +278,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="64dp"
                 android:layout_weight=".2"
+                android:background="@drawable/button_border"
                 android:text="@string/d3" />
 
             <Button
@@ -266,6 +287,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="64dp"
                 android:layout_weight=".2"
+                android:background="@drawable/button_border"
                 android:text="@string/d2" />
         </TableRow>
 
